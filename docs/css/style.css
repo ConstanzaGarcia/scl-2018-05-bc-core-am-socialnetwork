@@ -362,7 +362,7 @@ body {
 
 #containerQuienesSomos {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 0;
@@ -422,7 +422,7 @@ body {
 
 #containerSalud {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 0;
     margin: 0;
     display: none;
@@ -434,7 +434,7 @@ body {
 
 #containerAlimentacion {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 0;
     margin: 0;
     display: none;
@@ -450,7 +450,7 @@ body {
 
 #containerActividades {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 0;
     margin: 0;
     display: none;
@@ -462,7 +462,7 @@ body {
 
 #containerNoticias {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 0%;
     margin: 0;
     display: none;
@@ -474,7 +474,7 @@ body {
 
 #containerPreguntasFrecuentes {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 5%;
     margin: 0;
     display: none;
@@ -582,7 +582,7 @@ h1, h2, h3 {
 
 #containerActividades {
     background-color: white;
-    background-image: url(/img/fondo.png);
+    background-image: url(/docs/img/fondo.png);
     padding: 5%;
     margin: 0;
     display: none;
