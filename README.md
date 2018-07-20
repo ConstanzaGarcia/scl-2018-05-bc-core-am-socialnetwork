@@ -5,7 +5,7 @@
 
 
 # Red Social: CeliBook
-¡Bienvenidos a una red social creada especialmente para personas intolerantes el gluten y celiacos!. Aquí encontrarás lugares donde comprar, donde ir a comer, productos que puedes consumir y una gran comunidad en la que podrás compartir tus recetas, tus propios datos y conocer a más personas que viven como tú. 
+¡Bienvenidos a una red social creada especialmente para personas intolerantes el gluten y celiacos! Aquí encontrarás lugares donde comprar, donde ir a comer, productos que puedes consumir y una gran comunidad en la que podrás compartir tus recetas, tus propios datos y conocer a más personas que viven como tú. 
 
 ### 1) Definición del producto
 
