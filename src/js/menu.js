@@ -1,22 +1,3 @@
-window.onload = () => {
-  openNav();
-  closeNav();
-  openPerfil();
-  closePerfil();
-  openQuienesSomos();
-  closeQuienessomos();
-  openSalud();
-  closeSalud();
-  openAlimentacion();
-  closeAlimentacion();
-  openActividades();
-  closeActividades();
-  openNoticias();
-  closeNoticias();
-  openPreguntasfrecuentes();
-  closePreguntasfrecuentes();
-}
-
 
 /* Barra lateral */
 function openNav() {
@@ -40,6 +21,7 @@ function openPerfil() {
     document.getElementById('containerPreguntasFrecuentes').style.display = 'none';
     document.getElementById('containerPerfil').style.display = 'block';
   });
+
 }
 
 function closePerfil() {
@@ -52,7 +34,7 @@ function closePerfil() {
     document.getElementById('containerPreguntasFrecuentes').style.display = 'none';
     document.getElementById('containerPerfil').style.display = 'none';
     document.getElementById('containerMuro').style.display = 'block';
-  });
+});
 }
 
 /* Abrir y cerrar seccion Quienes Somos */
@@ -141,6 +123,8 @@ function closeAlimentacion() {
     document.getElementById('containerPerfil').style.display = 'none';
     document.getElementById('containerMuro').style.display = 'block';
   });
+  openNav();
+  closeNav();
 }
 
 /* Abrir y cerrar seccion actividades */
@@ -170,6 +154,8 @@ function closeActividades() {
     document.getElementById('containerMuro').style.display = 'block';
 
   });
+  openNav();
+  closeNav();
 }
 
 /* Abrir y cerrar seccion Noticias */
@@ -198,7 +184,8 @@ function closeNoticias() {
     document.getElementById('containerPreguntasFrecuentes').style.display = 'none';
     document.getElementById('containerPerfil').style.display = 'none';
     document.getElementById('containerMuro').style.display = 'block';
-
+    openNav();
+  closeNav();
     // id container .style.display="none";
   });
 }
@@ -230,11 +217,12 @@ function closePreguntasfrecuentes() {
     document.getElementById('containerPerfil').style.display = 'none';
     document.getElementById('containerMuro').style.display = 'block';
   });
+  openNav();
+  closeNav();
 }
 
 
 // abrir muro
-
 function openHome() {
   const btnHome = document.getElementById('home').addEventListener('click', () => {
     document.getElementById('containerPerfil').style.display = 'none';
@@ -246,9 +234,9 @@ function openHome() {
     document.getElementById('containerPreguntasFrecuentes').style.display = 'none';
     document.getElementById('containerMuro').style.display = 'block';
   });
-
+  openNav();
+  closeNav();
 }
-
 
 $(document).ready(function () {
   $("#myInput").on("keyup", function () {

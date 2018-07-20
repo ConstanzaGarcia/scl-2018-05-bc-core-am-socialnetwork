@@ -39,6 +39,7 @@ const like = (event) => {
     firebase.database().ref('messages').child(idLike).update({
       starCount : result
     });
+    location.reload();
   });
 };
 
@@ -50,6 +51,7 @@ const deletePost = (event) => {
     const idPosts = event.target.getAttribute('data-postId');
     firebase.database().ref('messages/').child(idPosts).remove();
     // contenedor.removeChild(contenedor.childNodes[0] && contenedor.childNodes[1]); //se borra el primer mensaje
+    location.reload();
   }else{};
 };
 
